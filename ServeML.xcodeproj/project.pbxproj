@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D318DCBF21003C8F00AC516C /* SmellDetectorComments.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D318DCBE21003C8F00AC516C /* SmellDetectorComments.mlmodel */; };
+		D318DCC021003D9600AC516C /* SmellDetectorComments.mlmodel in CopyFiles */ = {isa = PBXBuildFile; fileRef = D318DCBE21003C8F00AC516C /* SmellDetectorComments.mlmodel */; };
 		D39CF90120FC4DD7003B0508 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CF90020FC4DD7003B0508 /* main.swift */; };
 		D39CF91D20FC4E8F003B0508 /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CF90920FC4E8F003B0508 /* DemoServer.swift */; };
 		D39CF91E20FC4E8F003B0508 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CF90A20FC4E8F003B0508 /* Scopes.swift */; };
@@ -48,6 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				D318DCC021003D9600AC516C /* SmellDetectorComments.mlmodel in CopyFiles */,
 				D39CF93420FC5354003B0508 /* RecQuestionClassifier.mlmodel in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D318DCBE21003C8F00AC516C /* SmellDetectorComments.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SmellDetectorComments.mlmodel; sourceTree = "<group>"; };
 		D39CF8FD20FC4DD7003B0508 /* ServeML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ServeML; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39CF90020FC4DD7003B0508 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D39CF90920FC4E8F003B0508 /* DemoServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoServer.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				D39CF93120FC4FD5003B0508 /* RecQuestionClassifier.mlmodel */,
 				D39CF90820FC4E8F003B0508 /* swifter */,
 				D39CF90020FC4DD7003B0508 /* main.swift */,
+				D318DCBE21003C8F00AC516C /* SmellDetectorComments.mlmodel */,
 			);
 			path = ServeML;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				D39CF92320FC4E8F003B0508 /* String+SHA1.swift in Sources */,
 				D39CF90120FC4DD7003B0508 /* main.swift in Sources */,
 				D39CF92920FC4E8F003B0508 /* Errno.swift in Sources */,
+				D318DCBF21003C8F00AC516C /* SmellDetectorComments.mlmodel in Sources */,
 				D39CF92220FC4E8F003B0508 /* Socket+Server.swift in Sources */,
 				D39CF92F20FC4E8F003B0508 /* MimeTypes.swift in Sources */,
 				D39CF92520FC4E8F003B0508 /* Files.swift in Sources */,
